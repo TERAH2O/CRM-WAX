@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FAF4EB;
+  --bg-card: #FEFBF6;
+  --ink: #2A1F1A;
+  --ink-soft: #7A6B60;
+  --border: #EFE3D1;
+  --chip-bg: #F4E9D6;
+  --rose-deep: #C85A3E;
+  --rose-soft: #FADED1;
+  --sage-deep: #4A5A3E;
+  --sage-soft: #DEE3D2;
+  --gold-deep: #C08530;
+  --gold-soft: #FCE7C0;
+}
+
+* {
+  font-family: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+}
+
+.font-serif {
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 60, 'SOFT' 50;
+}
+
+.italic.font-serif {
+  font-variation-settings: 'opsz' 60, 'SOFT' 100;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
